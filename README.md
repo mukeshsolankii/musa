@@ -12,6 +12,4 @@ to commit the changes made in your file.
 --git push --set-upstream https://github.com/your-username/your-repository master
 to push the files to github..
 and thats all...
-#Thank you!!!!
-:EMOJICODE:
-:+1:
+#Thank you!!!!:+1: :shipit:
