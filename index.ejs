@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <link href="/ui/style.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <div>
+    <h1>username</h1>
+       <ul>
+           <% for(var i=0; i < users.length; i++) {%> 
+    <pre>
+      <li type="1"><%= users[i].username %> has
+      <%= pa[i] %> posts!!!
+      </li>
+    </pre>
+           <% }; %>
+
+       </ul>
+    </div>
+        <div>
+            <form action="http://localhost:8080/fill" method="post">
+                <fieldset>
+                    <legend>Node Form</legend>
+    <pre>                  
+    <label>Name:</label>
+    <input type="text" name="fname" placeholder="Name.."><br>
+    <label>Password:</label>
+    <input type="password" name="fpwd" value="password"><br>
+    <input type="submit" value="Login" style="background-color: blue;color: redf;font-weight: bold;">
+    </pre>
+                        
+                </fieldset>
+            </form>
+        </div>
+        <script type="text/javascript" src="/ui/main.js">
+        </script>
+    </body>
+</html>
