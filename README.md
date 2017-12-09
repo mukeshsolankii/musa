@@ -1,7 +1,7 @@
 # musa
 this is how to upload the files or folder to github reposetory.
 
-#First of all type this command to your cmd.
+##First of all type this command to your cmd.
 
 --git init
 to initialize  the git in your folder which you want to upload to github.
